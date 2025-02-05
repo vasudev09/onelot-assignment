@@ -1,0 +1,40 @@
+{
+  "short_name": "OneLotTest",
+  "name": "OneLotTest: Loan for car dealers",
+  "description": "Loan for car dealers",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#57009c",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "OneLotTest: Loan for car dealers",
+      "short_name": "OneLotTest",
+      "description": "Loan for car dealers",
+      "url": "/?source=pwa",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ]
+}
