@@ -78,7 +78,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`min-h-screen ${inter.variable} antialiased`}>
+      <body className={`min-h-screen ${inter.className} antialiased`}>
         <Providers>{children}</Providers>
       </body>
     </html>

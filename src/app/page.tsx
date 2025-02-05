@@ -1,9 +1,9 @@
-export default function Home() {
+import Home from "@/components/main/Home";
+
+export default function page() {
   return (
-    <div className="">
-      <header>header</header>
-      <main className="">OneLot</main>
-      <footer>footer</footer>
+    <div>
+      <Home />
     </div>
   );
 }

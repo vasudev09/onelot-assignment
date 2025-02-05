@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://onelot-test.vercel.app
+
+# Sitemaps
+Sitemap: https://onelot-test.vercel.app/sitemap.xml

@@ -2,7 +2,11 @@ import About from "@/components/main/About";
 import { Metadata } from "next";
 
 export default function page() {
-  return <About />;
+  return (
+    <div>
+      <About />
+    </div>
+  );
 }
 
 export const metadata: Metadata = {
