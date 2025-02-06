@@ -9,7 +9,7 @@ export default function LinkButton({ children, href, className, ...props }: Link
   return (
     <Link
       href={href}
-      className={`inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition ${
+      className={`inline-flex justify-center items-center px-[18px] py-[10px] text-sm font-medium text-white bg-primary rounded-md whitespace-nowrap ${
         className || ""
       }`}
       {...props}
